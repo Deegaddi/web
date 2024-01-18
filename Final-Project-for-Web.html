@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>The Voyage in Asia</title>
+  <link rel="icon" href="images\icon.jpg" type="image/icon">
+</head>
+
+<body>
+  <nav class="navigation-bar">
+    <div>
+      <h2 class="nav-brand">The Voyage</h2>
+      <div>
+        <ul class="navbar-nav">
+          
+          <li class="nav-item" id="dropdown">
+            <a class="nav-link" href="#">Destinations <span class="dropdown-button"></span> </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#ph-section">Philippines</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#jp-section">Japan</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#sing-section">Singapore</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <main>
+    <h1>The Voyage in Asia</h1>
+    <p>Embark on an exhilarating odyssey through the heart of Asia, where ancient wonders meet modern marvels. From mystical temples to bustling markets, every step is a journey into the unknown. Uncover the secrets of the East and let the adventure of a lifetime unfold beneath the Asian sky here in the Voyage. </p>
+  </main>
+
+  <section id="ph-section">
+    <div>
+      <h1>Philippines</h1>
+    </div>
+    <div class="article-container">
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\palawan.webp" alt="Picture of Palawan, Philippines">
+          <figcaption>Palawan</figcaption>
+        </figure>
+        <div>
+          <p>Palawan, officially the Province of Palawan, 
+            is an archipelagic province of the Philippines that is located in the region of Mimaropa.
+          </p>
+          <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.tripadvisor.com.ph/Tourism-g294255-Palawan_Island_Palawan_Province_Mimaropa-Vacations.html')">Reserve Now!</button>
+          </div>
+      </article>
+
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\Tacloban.jpg" alt="Picture of Tacloban, Philippines">
+          <figcaption>Tacloban</figcaption>
+        </figure>
+        <div>
+          <p>Tacloban, officially the City of Tacloban, 
+            is highly urbanized city in the Eastern Visayas region of the Philippines. The city is autonomous from the province of Leyte, although it serves as its provincial capital. 
+          </p>
+          
+            <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.airpaz.com/en/flight/to/tacloban-tac?a=16257339769&b=137149174487&d=c&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wbWzx2PXHpSsCUV25ckbkR2N1BrBZWIKK9e6lhiVf7QkN8beVWafNwaAnODEALw_wcB&l=1011167&n=g&p=&t=dsa-1480747625036&utm_medium=cpc&utm_source=gads')">Reserve Now!</button>
+          </div>
+      </article>
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\north-luz.jpg" alt="Picture of Northern Luzon, Philippines">
+          <figcaption>Northern-Luzon</figcaption>
+        </figure>
+        <div>
+          <p>The northwestern portion of the island, which encompasses most of the Ilocos Region, is characterized by a flat terrain extending east from the coastline toward the Cordillera Central mountains.
+            The Cordillera mountain range, which feature the island's north-central section, is covered in a mixture of tropical pine forests and montane rainforests, and is the site of the island's highest mountain, Mount Pulag, rising at 2,922 metres. 
+          </p>
+          <br><br><br>
+            <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.awnwtravel.com/northern-luzon-tour-8d7n-loop-1.html')">Reserve Now!</button>
+          </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="jp-section">
+    <div>
+      <h1>Japan</h1>
+    </div>
+    <div class="article-container">
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\Tokyo.jpg" alt="Picture of Tokyo, Japan">
+          <figcaption>Tokyo</figcaption>
+        </figure>
+        <div>
+          <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods.
+          </p>
+          <!-- change to actual link -->  
+          <button class="reservation-button" onclick="directToLink('https://www.gotokyo.org/en/index.html')">Reserve Now!</button>
+          </div>
+      </article>
+
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\Osaka.jpg" alt="Picture of Osaka, Japan">
+          <figcaption>Osaka</figcaption>
+        </figure>
+        <div>
+          <p>Osaka is a large port city and commercial center on the Japanese island of Honshu. It's known for its modern architecture, nightlife and hearty street food.
+          </p>
+            <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.viator.com/Osaka-tours/Private-and-Custom-Tours/d333-g26?m=28353&supag=122811556007&supca=12516646235&supsc=kwd-301671589377&supai=505141557250&supdv=c&supnt=g&suplp=1011167&supli=1009540&supti=kwd-301671589377&tsem=true&supci=kwd-301671589377&supap1=&supap2=&supfi=&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wYYo1hQJJOM9-YruvyHSmaFU2Qo0lRmtaE6VMQPvH-es38VquAJHKsaAghNEALw_wcB')">Reserve Now!</button>
+          </div>
+      </article>
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\Kyoto.jpg" alt="Picture of Kyoto, Japan">
+          <figcaption>Kyoto</figcaption>
+        </figure>
+        <div>
+          <p>Kyoto, once the capital of Japan, is a city on the island of Honshu. It's famous for its numerous classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines and traditional wooden houses.
+          </p>
+            <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.viator.com/Kyoto-tourism/d332-r20657257211-s250132091?m=28353&supag=122811554127&supca=12516646235&supsc=kwd-654383179&supai=505141370638&supdv=c&supnt=g&suplp=1011167&supli=1009507&supti=kwd-654383179&tsem=true&supci=kwd-654383179&supap1=&supap2=&supfi=&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_waUmrpLy5hff4-Hvbf1cdKszC5Ru4ZSgwjXShrYnVplfbZcJbL_JhsaAtzWEALw_wcB')">Reserve Now!</button>
+          </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="sing-section">
+    <div>
+      <h1>Singapore</h1>
+    </div>
+    <div class="article-container">
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\marina.jpg" alt="Picture of Marina Bay Sand, Singapore">
+          <figcaption>Marina Bay Sand</figcaption>
+        </figure>
+        <div>
+          <p>Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore and a landmark of the city. At its opening in 2010, it was deemed the world's most expensive standalone casino property at S$8 billion (US$6.88 billion).
+          </p>
+          <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.klook.com/en-PH/activity/10552-marina-bay-sands-skypark-observation-deck-admission-ticket-singapore/?gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wZPG8se1Ja5fyuhduFps43n5_DwNdgkyDDpuK0SovPFvuKvSMB00v4aAtlgEALw_wcB&gclsrc=aw.ds')">Reserve Now!</button>
+          </div>
+      </article>
+
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\universe.jpg" alt="Picture of Universal Studio, Singapore">
+          <figcaption>Universal Studio</figcaption>
+        </figure>
+        <div>
+          <p>Universal Studios Singapore is a theme park located within the Resorts World Sentosa integrated resort at Sentosa in Singapore. It features 28 rides, shows, and attractions in seven themed zones. It is one of the five Universal Studios theme parks around the world.</p>
+            <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.pelago.co/en-SG/activity/pok40-rws-universal-studios-ticket-singapore/?utm_source=google&utm_medium=cpc&utm_campaign=acq-gg-apac-sg_-_sg-sgp-en-kw-prod-activities-exact&utm_term=prod_universal_studio_sg&utm_content=universal%20studios%20singapore&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wb3UMw-yi48hBEKmP7CAVt79WYi9QjSyDiQ2__N3W_VVLq3nRnFTZ0aAq1cEALw_wcB')">Reserve Now!</button>
+          </div>
+      </article>
+      <article>
+        <figure>
+          <!-- Image ratio should be 7/5. Ig crop na la tapos choose 7:5 na ratio -->
+          <img src="images\garden.jpg" alt="Picture of Gardens by the Bay, Singpore">
+          <figcaption>Gardens by the Bay</figcaption>
+        </figure>
+        <div>
+          <p>The Gardens by the Bay is a nature park spanning 101 hectares in the Central Region of Singapore, adjacent to the Marina Reservoir. The park consists of three waterfront gardens: Bay South Garden, Bay East Garden and Bay Central Garden. </p>
+            <!-- change to actual link -->
+            <button class="reservation-button" onclick="directToLink('https://www.klook.com/en-PH/activity/127-gardens-by-the-bay-singapore/?gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_waxRq_FUAysJgx5OCDTa0r6sfsDawtxkDz2PVGgvvzmfUePtArwIq0aAlOpEALw_wcB&gclsrc=aw.dsl')">Reserve Now!</button>
+          </div>
+      </article>
+    </div>
+  </section>
+
+  
+
+  <footer>
+    &copy; 2024 Asian Travel Reservations
+  </footer>
+
+
+  <script>
+    document.getElementById('dropdown').addEventListener('click', function(event){
+      event.currentTarget.classList.toggle('active');
+      document.querySelector('.dropdown-button').classList.toggle('rotate');
+    })
+    
+    let directToLink = (link) => {
+      window.open(link, '_blank')
+    }
+  </script>
+</body>
+</html>

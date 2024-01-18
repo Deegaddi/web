@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>The Voyage - About us</title>
+  <link rel="icon" href="images\icon.jpg" type="image/icon">
+</head>
+
+<body>
+  <nav class="navigation-bar">
+    <div>
+      <h2 class="nav-brand">About us</h2>
+      <div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Final-Project-for-Web.html">Home</a>
+              </li>         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h1>The Voyage in Asia</h1>
+    <p>"The Voyage: A Transformative Expedition
+
+        Embark on a once-in-a-lifetime adventure with 'The Voyage,' an extraordinary travel tour that transcends conventional tourism. This immersive journey promises not just a change of scenery, but a profound exploration of culture, history, and self-discovery.
+        
+        As you traverse diverse landscapes and vibrant cities, our expert guides will unravel the rich tapestry of each destination, providing in-depth insights into the local customs, traditions, and hidden gems. From ancient landmarks that whisper tales of bygone eras to contemporary urban hubs pulsating with energy, 'The Voyage' seamlessly blends the past and present for an unparalleled travel experience.
+        
+        Designed for the curious and the intrepid, this tour is more than just sightseeing—it's a deep dive into the heart and soul of each destination. Whether you find yourself marveling at architectural wonders, savoring exotic cuisines, or connecting with local communities, 'The Voyage' promises to be a transformative exploration that goes beyond the surface.
+        
+        Indulge in the luxury of curated accommodations, ensuring comfort and relaxation after a day of exploration. Our meticulously planned itinerary strikes a balance between iconic landmarks and off-the-beaten-path gems, ensuring that every moment of 'The Voyage' is a revelation.
+        
+        Join us on this captivating expedition where each day is a chapter in an unfolding story of discovery. The Voyage isn't just a tour; it's an opportunity to broaden your horizons, forge lasting connections, and create memories that will resonate long after the journey concludes.
+        
+        Embark on 'The Voyage' and redefine the way you experience the world."
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2024 Asian Travel Reservations
+  </footer>
+
+  <script>
+    document.getElementById('dropdown').addEventListener('click', function(event){
+      event.currentTarget.classList.toggle('active');
+      document.querySelector('.dropdown-button').classList.toggle('rotate');
+    })
+    
+    let directToLink = (link) => {
+      window.open(link, '_blank')
+    }
+  </script>
+</body>
+</html>
